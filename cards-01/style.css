@@ -17,10 +17,10 @@ body {
 }
 
  .background2 {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
-    align-items: start;
+    /* align-items: start; */
     padding: 2rem;
 } 
  
@@ -87,3 +87,9 @@ body {
     transform: scale(1.5); 
 }
 
+.busqueda{
+    display: flex ;
+        margin: 0 auto;
+        justify-content: center;
+    
+}

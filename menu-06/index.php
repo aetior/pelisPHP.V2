@@ -3,12 +3,11 @@ echo '
     <div class="background">
         <div class="menu__wrapper">
             <div class="menu__bar">
-                <a href="#" title="Logo" class="logo">
+           
                     <a href="#" title="Logo" class="logo">
                         <img src="./menu-06/assets/logo.png" alt="Logo">
                     </a>
 
-                </a>
                 <img class="menu-icon" src="assets/burger-menu.svg" title=\'Burger Menu\' alt=\'Burger Menu\'
                     onclick="toggleMenu(this)">
                 <ul class="navigation">

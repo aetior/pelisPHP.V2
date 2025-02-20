@@ -1,8 +1,9 @@
 <?php
-
+include('./searchBar/searchBar.php');
 echo'
 
         <div class="background2">
+            '.bar().'
             <div class="centering">
                 <div class="articles">
                     <article>

@@ -1,0 +1,19 @@
+
+form{
+    gap: 1rem;
+    width: 100%;
+}
+.inputBusqueda{
+    width: 50%;
+    background-color: transparent;
+    border-radius: 1%;
+    box-shadow: 1px 1px 1px 1px rgba(32,32,32,0.3);
+    color: white;
+    font-size: x-large;
+}
+.btnBusqueda{
+    background-color: rgb(38, 41, 41);
+    color: white;
+    padding: .5rem;
+    border-radius: 10px;
+}

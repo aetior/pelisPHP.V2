@@ -10,6 +10,7 @@ require_once './model/userModel.php';
 if (isset($_SESSION['email'])) {
     // Si está autenticado, mostrar el contenido
     include('header.php');
+    
     include('./menu-06/index.php');
     include('./cards-01/cards.php');
 
