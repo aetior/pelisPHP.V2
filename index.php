@@ -1,19 +1,20 @@
 <?php
+//no guardar el cache
+header("Cache-Control: no-cache, no-store, must-revalidate");
+header("Pragma: no-cache");
+header("Expires: 0");
 
 session_start();
 
 
 require('./controller/controller.php');
 require_once './model/userModel.php';
-
 // Comprobar si el usuario está autenticado
 if (isset($_SESSION['email'])) {
     // Si está autenticado, mostrar el contenido
     include('header.php');
-    
     include('./menu-06/index.php');
     include('./cards-01/cards.php');
-
 } else {
     // Si no está autenticado, redirigir al login
     include('./login-01/index.php');
