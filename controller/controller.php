@@ -54,3 +54,8 @@ function entrar() {
 if(isset($_POST['validar'])){
     entrar();
 }
+
+if(isset($_POST['like'])){
+    $id= $_POST['id'];
+    addLike($id);
+}

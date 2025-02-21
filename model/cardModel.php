@@ -12,6 +12,13 @@ class Card{
        $stmt->execute();
        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+    public function addLike($id){
+        $sql = "UPDATE datospeli SET liked = 1 WHERE id = :id";
+    
+        $stmt = $this->db->prepare($sql);
+        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+    
+        return $stmt->execute(); 
 }
-
+}
 ?>

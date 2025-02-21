@@ -20,12 +20,11 @@ return '
                             </p>
                                 <div class="for">
                                 <form>
-                                <input type="submit" value="Like">
-                       
+                                <input type="submit" value="Like" name="like">
                                 </form>
                                      <form class="form2">
                                
-                                <input type="submit" value="DisLike">
+                                <input type="submit" value="DisLike" name="noLike">
                                 </form>
                                 </div>
                         </div>
